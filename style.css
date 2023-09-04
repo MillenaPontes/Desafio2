@@ -1,0 +1,87 @@
+:root{
+    --cor--de--fundo: #FFF5EE;
+    --cor--do--tiket: #FFFFFF;
+    --cor--texto--principal:#696969;
+    --cor--numero-promocao: #2E8B57;
+}
+
+.caixa__mae{
+    background-color: var(--cor--de--fundo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.texto__principal{
+    font-size: 14px;
+    color: var(--cor--texto--principal);
+    
+
+}
+
+.logo{
+    letter-spacing: 10px;
+}
+
+
+.container{
+   background-color: var(--cor--do--tiket);
+   display: flex;
+   height: 537px;
+   width: 739px;
+}
+
+
+.caixa__dos__textos{
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+    padding-top: 45px;
+    height: 598px;
+    width: 739px;
+    word-spacing: 4px;
+
+}
+
+.valor__promocao{
+    color: var(--cor--numero-promocao);
+    font-size: 35px;
+    word-spacing: 20px;
+}
+
+.valor__sem__promocao{
+    color: var(--cor--texto--principal);
+    font-size: 14px;
+    height: 5vh;
+    text-decoration: line-through;
+    
+    
+}
+
+.botao__carrinho{
+    font-size: 14px;
+    color: var(--cor--do--tiket);
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    
+}
+
+.caixa__do__botao{
+    background-color: var(--cor--numero-promocao);
+    height: 5vh;
+    width: 12vw;
+    border-radius: 15px ;
+}
+
+.caixa__do__botao a{
+    padding-top: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.botao__carrinho img{
+    padding-right: 10px;
+}
+
